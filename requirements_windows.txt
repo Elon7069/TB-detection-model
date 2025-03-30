@@ -1,0 +1,14 @@
+numpy==1.23.5
+pandas==2.0.1
+matplotlib==3.7.1
+scikit-learn==1.2.2
+opencv-python==4.7.0.72
+pillow==9.5.0
+streamlit==1.22.0
+tqdm==4.65.0
+seaborn==0.12.2
+plotly==5.14.1
+tensorflow-directml-plugin==0.4.0
+tensorflow==2.10.0
+flwr==1.4.0
+grad-cam==1.4.8 

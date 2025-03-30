@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large model weight files (may be too large for git)
+# *.h5
+# *.pt
+# *.pth
+*.pkl
+*.hdf5
+*.npy
+*.npz
+
+# Log files
+logs/
+*.log
+tb_logs/
+runs/
+
+# Local configuration
+.env
+.venv
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files
+data/train/*
+data/val/*
+
+# Include test data and submission file
+!data/test/
+!submission.csv
+
+# Include example images for README
+!visualizations/*.png
+
+# Include model files below a certain size
+!fl_models/
+!fl_models/*.h5
+!fl_models/*.pt
+
+# Generated files
+output/ 
